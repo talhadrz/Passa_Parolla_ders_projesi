@@ -25,6 +25,8 @@ namespace Passa_Parola
         Color yesil = Color.Green;
         Color kırmızı = Color.Red;
         Color sarı = Color.Yellow;
+
+
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             Button foundButton = Controls.Find($"button{soruno}", true).FirstOrDefault() as Button;
