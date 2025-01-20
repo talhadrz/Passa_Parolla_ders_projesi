@@ -24,7 +24,6 @@ namespace Passa_Parola
         // renkler ------------------------------------------------------------------------------------------------------
         Color yesil = Color.Green;
         Color kırmızı = Color.Red;
-
         Color sarı = Color.Yellow;
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
