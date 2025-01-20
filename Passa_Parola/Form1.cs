@@ -46,7 +46,6 @@ namespace Passa_Parola
         }
 
 
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             if (soruno < 24)
