@@ -1,36 +1,70 @@
-# Kelime Oyunu Projesi
+# Kelime Oyunu Projesi 🎮
 
-Bu projede, oyunculara çeşitli sorular soruluyor ve her bir soruya karşılık doğru cevabı yazmaları isteniyor. Cevap doğruysa, ilgili buton yeşil renge döner; yanlışsa kırmızı renge döner. Oyuncunun doğruları ve yanlışları sayılır ve ekranın altında doğru/yanlış sayıları gösterilir.
+Bu projede, oyunculara çeşitli sorular soruluyor ve her bir soruya karşılık doğru cevabı yazmaları isteniyor. Cevap doğruysa, ilgili buton yeşil renge döner; yanlışsa kırmızı renge döner. Kullanıcı, doğruları ve yanlışları takip edebilir ve oyunun sonunda toplam puanları öğrenebilir.
 
-## Özellikler
+## 🎯 Özellikler
 
-- **Soru Gösterimi**: Her bir butona tıklayarak soruları başlatabilirsiniz.
-- **Cevap Kontrolü**: Kullanıcı cevapları metin kutusuna girer ve "Enter" tuşuna basarak cevabı kontrol edebilir.
-- **Buton Renk Değişimi**: Doğru cevaba verilen buton yeşile döner, yanlış cevaba verilen buton kırmızı olur.
-- **Puan Takibi**: Oyuncunun doğruları ve yanlışları sayılır ve ekranın alt kısmında gösterilir.
-- **Sonraki Soru**: Kullanıcı "Sonraki" bağlantısına tıklayarak bir sonraki soruyu geçebilir.
+- **Soru Gösterimi**: Her bir harf butonuna tıklayarak soruları başlatabilirsiniz.
+- **Cevap Kontrolü**: Kullanıcı, metin kutusuna cevabını girer ve "Enter" tuşuna basarak cevabı kontrol eder.
+- **Buton Renk Değişimi**: 
+  - **Yeşil**: Doğru cevap verildiğinde, ilgili buton yeşile döner.
+  - **Kırmızı**: Yanlış cevap verildiğinde, ilgili buton kırmızıya döner.
+- **Puan Takibi**: Ekranın alt kısmında doğru ve yanlış cevaplar sayılır.
+- **Sonraki Soru**: Kullanıcı, "Sonraki" bağlantısına tıklayarak bir sonraki soruya geçebilir.
 
-## Kullanıcı Arayüzü
+## 🖥️ Kullanıcı Arayüzü
 
-- **Soru Bölgesi**: Üst bölümde sorunun yer aldığı alan bulunur.
-- **Cevap Bölgesi**: Sağda metin kutusu ile kullanıcı cevap yazabilir ve altında doğrular/yanlışlar görüntülenir.
-- **Butonlar**: Alt kısımda her bir harf butonları yer alır. Her doğru cevaba tıklanan buton yeşile döner.
+Projede kullanıcı dostu bir arayüz bulunmaktadır:
+
+- **Soru Bölgesi**: Üst bölümde, oyuncuların cevaplaması gereken sorular yer alır.
+- **Cevap Bölgesi**: Sağdaki metin kutusuna kullanıcı cevap yazabilir. Aşağıda ise doğru ve yanlış cevapların sayıları görüntülenir.
+- **Butonlar**: Alt kısımda her bir harf butonları bulunur. Her doğru cevaba tıklanan buton **yeşile** döner, yanlış cevaba tıklanan buton ise **kırmızıya** döner.
 - **Başla Butonu**: Kullanıcı soruları başlatmak için "Başla" butonuna tıklayabilir.
-  
-## Kurulum
 
-1. Projeyi indirin.
-2. Visual Studio'yu açın ve projeyi açın.
-3. Projeyi çalıştırın.
+## 🛠️ Kurulum
 
-## Teknolojiler
+Bu projeyi bilgisayarınıza kurmak için şu adımları izleyin:
 
-- C#
-- Windows Forms
-- .NET Framework
+1. Projeyi **GitHub** üzerinden indirin veya **zip** olarak çekin.
+2. Visual Studio veya destekleyen bir **C# IDE**'yi açın.
+3. Projeyi açın ve **F5** tuşuna basarak çalıştırın.
 
-## Kullanım
+## 🧑‍💻 Teknolojiler
 
-1. Oyuncular soruyu görebilir.
-2. Yanıtları yazmak için metin kutusunu kullanın ve "Enter" tuşuna basın.
-3. Sonraki soruya geçmek için "Sonraki" bağlantısını kullanın.
+Bu projede aşağıdaki teknolojiler kullanılmıştır:
+
+- **C#**
+- **Windows Forms** (GUI Framework)
+- **.NET Framework** (Uygulama geliştirme platformu)
+
+## ⚙️ Kullanım
+
+Oyunu oynamak için aşağıdaki adımları izleyebilirsiniz:
+
+1. **Soru Bölgesi**: Kullanıcı, soruyu görebilir ve cevap vermeye başlayabilir.
+2. **Cevap Yazma**: Yanıtları metin kutusuna yazın ve **Enter** tuşuna basarak cevabınızı kontrol edin.
+3. **Sonraki Soru**: "Sonraki" bağlantısına tıklayarak yeni bir soruya geçebilirsiniz.
+4. **Doğru/Yanlış Takibi**: Oyuncu doğru ve yanlış cevapları takip edebilir. Doğru cevaplar yeşil, yanlış cevaplar kırmızı ile gösterilir.
+
+## 📸 Ekran Görüntüsü
+
+İşte oyun arayüzünün bir örneği:
+
+![Oyun Arayüzü](./image.png)
+
+## 🎉 Katkıda Bulunma
+
+Bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları takip edin:
+
+1. Repo'yu **fork** yapın.
+2. Yeni bir özellik ekleyin veya hataları düzeltin.
+3. Değişikliklerinizi **pull request** ile gönderin.
+
+## 📄 Lisans
+
+Bu proje, [MIT Lisansı](https://opensource.org/licenses/MIT) ile lisanslanmıştır.
+
+---
+
+Proje hakkında daha fazla bilgi için iletişime geçebilirsiniz!
+
