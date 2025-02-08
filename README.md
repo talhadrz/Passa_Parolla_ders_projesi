@@ -50,7 +50,8 @@ Oyunu oynamak için aşağıdaki adımları izleyebilirsiniz:
 
 İşte oyun arayüzünün bir örneği:
 
-![Oyun Arayüzü](./image.png)
+![Uploading image.png…]()
+
 
 ## 🎉 Katkıda Bulunma
 
